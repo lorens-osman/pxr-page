@@ -5,32 +5,12 @@
 
 @font-face {
   font-family: lemon;
-  src: url(../css/fonts/lemon_milk/LEMONMILK-Bold.otf);
-}
-
-@font-face {
-  font-family: AzerLight;
-  src: url(../css/fonts/ar/AzerLight.ttf);
-}
-
-@font-face {
-  font-family: AzerMedium;
-  src: url(../css/fonts/ar/AzerMedium.ttf);
-}
-
-@font-face {
-  font-family: HacenLinerXL;
-  src: url(../css/fonts/ar/test/HacenLinerXL.ttf);
+  src: url(../css/fonts/LEMONMILK-Bold.otf);
 }
 
 @font-face {
   font-family: noorehiraRegular;
-  src: url(../css/fonts/ar/test/noorehiraRegular.ttf);
-}
-
-@font-face {
-  font-family: roboR;
-  src: url(../css/fonts/RobotoCondensed-Regular.ttf);
+  src: url(../css/fonts/noorehiraRegular.ttf);
 }
 
 @font-face {
@@ -102,12 +82,6 @@ body pre {
   font-family: JetBrainsMono-Regular;
 }
 
-/* @include mq-mn(560px){
-    header ,section ,footer{
-        max-width: 525px;
-        margin: 0 auto;
-    }
-} */
 /* ============
 
     HEADER START
