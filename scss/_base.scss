@@ -97,3 +97,67 @@ body{
         font-family: $JetBrainsMono;
     }
 }
+
+
+$bgc:#F4FCE8;
+$bgc-img:(linear-gradient(top, rgba(174, 235, 230,1) 0%,rgba(255,255,255,0) 100%));
+
+
+$secBgc:transparent;
+$sec-img:(linear-gradient(top, rgba(174, 235, 230,0.25) 0%,rgba(89, 212, 219,0.65) 100%));
+
+$textC:#300030;
+
+$abgc:#519548 ;
+$aimg:(linear-gradient(top, rgba(214,249,255,1) 0%,rgba(158,232,250,1) 100%));
+
+
+body{
+  background-color: $bgc;
+  background-image:$bgc-img;
+  h1{
+    color: $textC !important;
+    background-color:rgba(174, 235, 230,1) !important;
+    border-color: transparent !important;
+    box-shadow:2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3);
+    &::after{
+      color:rgba(174, 235, 230,1) !important
+    }
+  }
+  a{
+    color: $textC !important;
+  }
+  nav{
+    ul{
+      .fa{
+        display: block;
+        margin-top: pxr(8);
+        font-size: pxr(14);
+      }
+    }
+  }
+  .intro {
+    h1{
+      background-color: transparent !important;
+      box-shadow: none;
+    }
+    a{
+    background-color: transparent !important;
+    background-image:$aimg;
+    box-shadow:2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3);
+    padding: pxr(10 0) !important;
+    }
+  }
+  .css_output::after{
+    color:green !important
+  }
+}
+nav,.intro,.doc > section{
+  background-color: $secBgc !important;
+  background-image:$sec-img;
+  color:$textC !important ;
+  box-shadow: none !important;
+  border-radius: pxr(5);
+  
+  
+}

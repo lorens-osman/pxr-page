@@ -20,10 +20,14 @@ body{
         
         nav {
             height:100%;
+            border-radius: pxr(5);
             ul{
             height:100%;
             flex-direction: column;
             justify-content: space-around;
+            .fa{
+                font-size: pxr(20);
+            }
             }
         }
     }

@@ -82,6 +82,63 @@ body pre {
   font-family: JetBrainsMono-Regular;
 }
 
+body {
+  background-color: #F4FCE8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#aeebe6), to(rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(top, #aeebe6 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+body h1 {
+  color: #300030 !important;
+  background-color: #aeebe6 !important;
+  border-color: transparent !important;
+  -webkit-box-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3);
+          box-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3);
+}
+
+body h1::after {
+  color: #aeebe6 !important;
+}
+
+body a {
+  color: #300030 !important;
+}
+
+body nav ul .fa {
+  display: block;
+  margin-top: 0.5rem   ;
+  font-size: 0.875rem   ;
+}
+
+body .intro h1 {
+  background-color: transparent !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body .intro a {
+  background-color: transparent !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d6f9ff), to(#9ee8fa));
+  background-image: linear-gradient(top, #d6f9ff 0%, #9ee8fa 100%);
+  -webkit-box-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3);
+          box-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3);
+  padding: 0.625rem 0rem   !important;
+}
+
+body .css_output::after {
+  color: green !important;
+}
+
+nav, .intro, .doc > section {
+  background-color: transparent !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(174, 235, 230, 0.25)), to(rgba(89, 212, 219, 0.65)));
+  background-image: linear-gradient(top, rgba(174, 235, 230, 0.25) 0%, rgba(89, 212, 219, 0.65) 100%);
+  color: #300030 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-radius: 0.3125rem   ;
+}
+
 /* ============
 
     HEADER START
@@ -95,6 +152,7 @@ nav {
   background-color: #B6DDDA;
   -webkit-box-shadow: 0 0 0.625rem    0.0625rem    #B6DDDA;
           box-shadow: 0 0 0.625rem    0.0625rem    #B6DDDA;
+  border-radius: 0;
 }
 
 nav ul {
@@ -258,7 +316,7 @@ nav ul li a {
   background-color: #B6DDDA;
   -webkit-box-shadow: 0 0 0.625rem    0.0625rem    #B6DDDA;
           box-shadow: 0 0 0.625rem    0.0625rem    #B6DDDA;
-  margin-bottom: 0.625rem   ;
+  margin-bottom: 1.875rem   ;
   position: relative;
 }
 
@@ -477,6 +535,7 @@ nav ul li a {
   }
   body header nav {
     height: 100%;
+    border-radius: 0.3125rem   ;
   }
   body header nav ul {
     height: 100%;
@@ -486,6 +545,9 @@ nav ul li a {
             flex-direction: column;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+  body header nav ul .fa {
+    font-size: 1.25rem   ;
   }
   body .intro {
     -ms-grid-row: 1;

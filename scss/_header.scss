@@ -10,6 +10,7 @@ nav{
     margin-bottom: pxr(10);
     background-color: $blueOne;
     box-shadow: 0 0 pxr(10) pxr(1) $blueOne;
+    border-radius: 0;
     ul{
         display: flex;
         width: 100%;
