@@ -168,10 +168,13 @@ nav ul li a {
 }
 
 .intro p {
-  margin-bottom: 3.75rem   ;
   font-size: 1.25rem   ;
   font-family: roboB;
   font-weight: bold;
+}
+
+.intro p:last-of-type {
+  margin-bottom: 3.75rem   ;
 }
 
 .intro .download a {
@@ -188,6 +191,10 @@ nav ul li a {
 
 .intro .element_con span .fa-check-circle-o {
   color: green;
+}
+
+.intro .lorens {
+  display: none;
 }
 
 /* ============

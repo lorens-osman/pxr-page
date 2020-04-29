@@ -27,7 +27,10 @@
         }
     }
     p{
-        margin-bottom: pxr(60);
+        &:last-of-type{
+            margin-bottom: pxr(60);
+        }
+       
         font-size: pxr(20);
         font-family: $roboB;
         font-weight: bold;
@@ -52,6 +55,9 @@
             }
         }
         
+    }
+    .lorens{
+        display: none;
     }
 }
  
